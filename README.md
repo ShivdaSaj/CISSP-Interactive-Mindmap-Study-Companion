@@ -12,7 +12,7 @@ No sign-up and no account. Everything you add stays in your own browser.
 
 ### 📑 Feature tour (slides)
 
-The 15-slide visual walkthrough shows every feature in dark and light mode. Click the cover to open the PDF.
+The 21-slide visual walkthrough shows every feature in dark and light mode, including Game mode. Click the cover to open the PDF.
 
 <p align="center">
   <a href="docs/CISSP-Mindmap-carousel.pdf"><img src="docs/images/carousel-cover.webp" alt="Cover slide of the feature tour: Master the 8 CISSP domains, one topic at a time" width="360"></a>
