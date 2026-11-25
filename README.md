@@ -1,6 +1,6 @@
 # CISSP Interactive Mindmap & Study Companion
 
-**An interactive study companion for the CISSP exam.** Explore every domain as a zoomable mindmap, track what you've covered, keep your own notes next to every topic, drill flashcards, take practice tests, follow a study plan that counts down to your exam date, and **level up in Game mode**, where you practise the decisions a security leader makes, from practitioner all the way to CISO.
+**An interactive study companion for the CISSP exam.** Explore every domain as a zoomable mindmap, track what you've covered, keep your own notes next to every topic, drill flashcards, take practice tests, follow a study plan that counts down to your exam date, and **level up in Game mode**, where you practise the decisions a security leader makes, from practitioner all the way to CISO, including the new **CISSP Story Campaign**: your first 90 days as CISO of a fictional company.
 
 ### 👉 Live at **[mindmap.sajinshivdas.online](https://mindmap.sajinshivdas.online)**
 
@@ -32,7 +32,8 @@ The 21-slide visual walkthrough shows every feature in dark and light mode, incl
 - [Study dashboard and exam plan](#study-dashboard-and-exam-plan)
 - [Bookmarks, notes and search](#bookmarks-notes-and-search)
 - [Backup, restore and device transfer](#backup-restore-and-device-transfer)
-- [Game mode: Think Like a Security Leader](#game-mode-think-like-a-security-leader) 🎮 **new**
+- [Game mode: Think Like a Security Leader](#game-mode-think-like-a-security-leader) 🎮
+  - [CISSP Story Campaign: Aegis Global](#cissp-story-campaign-aegis-global-the-first-90-days) 📖 **new**
 - [Guided tours](#guided-tours)
 - [Date, time and time zone](#date-time-and-time-zone)
 - [Dark and light themes](#dark-and-light-themes)
@@ -64,6 +65,7 @@ The companion puts the whole syllabus in one place as mindmaps you can explore. 
 | 🔎 **Search** | One search across all topics, your notes and the Study Hub, acronyms included |
 | 📱 **Any device** | Works on desktop, tablet and phone. Moves your data between devices with a one-time QR code |
 | 🎮 **Game mode** | *Think Like a Security Leader*: climb from practitioner to CISO through decision scenarios with technician traps, an adaptive sprint, sequencing puzzles, branching crisis simulations, a board-meeting boss, speed rounds, daily quests and badges |
+| 📖 **Story campaign** | *Aegis Global: The First 90 Days*: live through one organization's incidents as its new CISO, with episodes, consequences that carry over, hidden risks to uncover and a debrief for every episode |
 | 🔒 **Private** | No account. Your study data never leaves your browser unless you send it |
 
 ---
@@ -298,6 +300,7 @@ The CISSP doesn't reward the most technical answer. It rewards the decision a se
 ### Contents of this section
 - [The leadership journey (ranks)](#the-leadership-journey-ranks)
 - [HQ](#hq)
+- [CISSP Story Campaign: Aegis Global](#cissp-story-campaign-aegis-global-the-first-90-days) 📖 **new**
 - [Daily Briefing](#daily-briefing)
 - [Decision Arena](#decision-arena)
 - [Adaptive Sprint](#adaptive-sprint)
@@ -334,6 +337,7 @@ The landing page of Game mode, and your command centre.
 - **Security posture shield:** a gauge that's restored to 100% by the Daily Briefing and **drops 10% for every day you skip it**. It's a nudge to study a little every day.
 - **Top bar:** shield, briefing streak 🔥 and badge count, on every Game mode page.
 - **Main button:** *Start today's briefing*, or *Enter the Arena* once you've briefed. A second button opens your **Mistake Vault** when it holds anything.
+- **Story campaign card:** your progress in the [CISSP Story Campaign](#cissp-story-campaign-aegis-global-the-first-90-days) and a button to continue the next episode.
 - **Today's quests:** three quests a day (see [XP, quests and badges](#xp-quests-and-badges)).
 
 <img src="docs/images/game/quests.webp" alt="Today's quests with progress bars" width="100%">
@@ -364,6 +368,194 @@ The landing page of Game mode, and your command centre.
 <img src="docs/images/game/hierarchy-compass.webp" alt="The decision hierarchy and the decision compass" width="100%">
 
 - **Keep learning:** links to the CISSP practice questions, mock assessment, flashcards, mindmaps and the digital forensics process on [sajinshivdas.com](https://sajinshivdas.com/cybersecurity/).
+
+### CISSP Story Campaign: Aegis Global, the first 90 days
+
+> **Welcome to Aegis Global. Today is your first day as CISO.**
+
+**New.** Instead of hundreds of separate questions, you live through one organization's first 90 days with a new CISO. One incident leads to the next. The story creates the ambiguity, the incomplete information, the competing priorities and the business pressure, so you have to **think like a CISSP**. The eight domains are the world the story happens in. Open it from the **Story Campaign** tab in Game mode, from the campaign card on HQ, or at [`/game/campaign`](https://mindmap.sajinshivdas.online/game/campaign).
+
+<img src="docs/images/game/campaign-hero.webp" alt="Story campaign overview: Aegis Global: The First 90 Days, the opening story, season progress and the learning formula" width="100%">
+
+Every decision follows the same learning formula:
+
+**Story → Event → Evidence → Decision → Consequence → CISSP principle → Next event**
+
+and not *read → question → correct/incorrect → next question*.
+
+#### Contents of the campaign
+- [The CISO Command Center](#the-ciso-command-center)
+- [Season 1: The First 30 Days](#season-1-the-first-30-days)
+- [Playing an episode](#playing-an-episode)
+- [The debrief](#the-debrief)
+- [Aegis Global Services Group](#aegis-global-services-group)
+- [The hidden risk register](#the-hidden-risk-register)
+
+#### The CISO Command Center
+
+The campaign's overview page is your dashboard as the new CISO.
+
+<img src="docs/images/game/campaign-command.webp" alt="The CISO Command Center: day in role, active incidents, audit findings, known critical risks, undiscovered risks, policy compliance, control effectiveness, budget, board confidence and business resilience" width="100%">
+
+- **Command center:**
+  - day in role, active incidents and unresolved audit findings
+  - known critical risks, and undiscovered risks: always **??**
+  - security budget, Board confidence and business resilience
+  - **policy compliance: 82%**, next to **control effectiveness: UNKNOWN**. The gap between those two figures is one of the campaign's central lessons.
+- **Security posture, reported vs actual:** eight posture meters (maturity, compliance, resilience, cyber risk exposure, third-party, identity, cloud, incident preparedness) plus Board confidence.
+  - A marker on each bar shows **what management reports**.
+  - The bar shows the **actual** posture. It's hidden until you finish Episode 1, then moves with your decisions.
+- **Your CISSP development:** your mindset profile from the campaign, kept **separate from the organization's health**, because organizational success and exam readiness aren't the same thing.
+
+<img src="docs/images/game/campaign-posture.webp" alt="Security posture: reported vs actual meters, and your CISSP development by mindset dimension" width="100%">
+
+- **Two transformations:** the organization moves from *Reactive → Managed → Risk-based → Resilient*, while you move from *Technical thinker → Security practitioner → Risk manager → Security leader → CISSP mindset*.
+
+<img src="docs/images/game/campaign-transformations.webp" alt="Two transformations: the organization's and yours" width="100%">
+
+- **The season** as episode cards, each showing its status, story day, number of decisions, play time and domains. Below them are the campaign's signature lessons, for example *"Having backups doesn't mean you can recover"* and *"Control documented ≠ control effective"*.
+
+<img src="docs/images/game/campaign-season-cards.webp" alt="Season 1 episode cards: completed, available, locked and coming soon" width="100%">
+
+- **On HQ:** a campaign card shows your season progress, hidden risks found and a **Continue** or **Resume** button, with a numbered dot for each episode.
+
+<img src="docs/images/game/campaign-hq-card.webp" alt="The campaign card on Game mode HQ" width="100%">
+
+#### Season 1: The First 30 Days
+
+Your first month as CISO. Open the **Season 1** tab for every episode's objectives, CISSP concepts and domains.
+
+<img src="docs/images/game/campaign-season.webp" alt="Season 1: each episode with its status, objectives, CISSP concepts and domains" width="100%">
+
+| # | Episode | Story day | What it's about | Main domains | Status |
+|---|---|---|---|---|---|
+| 01 | **The Website Goes Dark** | Day 1 | Customers can't reach the website on your first morning. Is it a DDoS? Why didn't the protection stop it? And what was the attack hiding? | D7, D4, D1, D5, D3 | ▶ Playable (12 decisions) |
+| 02 | **Who Owns the Data?** | Days 2–3 | An orphaned vendor account queried 2.7 million customer records. Whose data is it, how sensitive is it, and do you have to notify anyone? | D2, D1, D5, D8 | ▶ Playable (11) |
+| 03 | **The Patch That Doesn't Exist** | Day 4 | A CVSS 9.8 vulnerability with reported exploitation in unsupported payment middleware that carries 38% of revenue. There is no patch. | D1, D3, D6, D7 | ▶ Playable (16) |
+| 04 | **Recovery Without Recovery** | Days 5–7 | The dashboard says payment recovery is 100% green. The BIA asks for a 4-hour RTO and a 15-minute RPO. Nobody has ever recovered the whole service. | D1, D3, D7 | ▶ Playable (20) |
+| 05 | Everyone Is an Administrator | Days 8–9 | 436 privileged identities, 263 outside PAM, and an audit finding marked CLOSED | D5, D1, D6, D7 | Coming soon |
+| 06 | Ship It Now, Secure It Later | Days 10–11 | Secure SDLC, emergency changes and secrets in source code | D8, D6, D1, D3 | Coming soon |
+| 07 | Trust, but Verify | Days 12–14 | The supplier behind the supplier: assurance reports, audit rights, fourth parties | D1, D6, D7, D8 | Coming soon |
+| 08 | 72 Hours | Days 15–16 | The breach-notification clock is already running | D1, D7, D2 | Coming soon |
+| 09 | The Board Doesn't Speak Cyber | Days 17–18 | Translating cyber risk into business decisions | D1, D6 | Coming soon |
+| 10 | You Can't Protect What You Don't Know | Days 19–21 | Asset inventory, unknown servers and misleading patch metrics | D2, D7, D6, D4 | Coming soon |
+| 11 | Data Never Forgets | Days 22–23 | Retention, legal holds, remanence and secure disposal | D2, D1, D7 | Coming soon |
+| 12 | The Door Was the Firewall | Days 24–25 | Physical security, badges, tailgating and safety | D3, D7, D1 | Coming soon |
+| 13 | Someone Else's Computer | Days 26–27 | Cloud shared responsibility and shadow cloud | D3, D2, D7, D1 | Coming soon |
+| 14 | The Password Was Correct | Days 28–29 | Business email compromise, MFA fatigue and social engineering | D5, D1, D7 | Coming soon |
+| 15 | Green Doesn't Mean Secure | Day 30 | Metrics, assurance and evidence | D6, D1 | Coming soon |
+| 👑 | **Season finale: The Board Risk Committee** | | Explain what happened, what remains unknown, which risks matter most, who owns them and what investment is needed | All | Coming soon |
+
+- **Order:** episodes unlock one after another. Finish an episode to open the next, and replay any episode at any time.
+- **Episode page:** each episode has its own page with the synopsis, objectives, CISSP concepts and domain names, the hidden risks it can reveal (shown once found), your best score, number of plays, achievement and a review of your last run.
+
+<img src="docs/images/game/campaign-episode.webp" alt="Episode 4 details: synopsis, objectives, CISSP concepts and domains, hidden risks and your record" width="100%">
+
+<img src="docs/images/game/campaign-episode-soon.webp" alt="A coming-soon episode: Trust, but Verify, with its objectives, concepts and domains" width="100%">
+
+#### Playing an episode
+
+- **The opening:**
+  - every episode opens with **"Previously on Aegis Global…"**
+  - then **Previous decision impact**: choices you made in earlier episodes come back. For example, approving manual IP blocking on Day 1 blocks a partner's API overnight, and recommending a shutdown on Day 4 lowers the CFO's trust in Security on Day 5.
+  - then the opening scene. The opening of Episode 1 is shown below; the second image shows Episode 2 opening with two Day 1 decisions coming back.
+
+<img src="docs/images/game/campaign-intro.webp" alt="Episode 1 opening: the command center screen and the first phone calls" width="100%">
+
+<img src="docs/images/game/campaign-callbacks.webp" alt="Episode 2 opening: Previously on Aegis Global, and two Previous decision impact cards" width="100%">
+
+- **Each decision is a scene:** a time stamp, the story, the people involved (in their own words), and the **evidence** on dashboards, alerts and logs. The *Command center* sidebar shows the organization's posture changing live, your progress through the episode and the hidden risks found so far.
+
+<img src="docs/images/game/campaign-decision.webp" alt="A decision scene: 08:21, network monitoring evidence, and the question: Which type of attack is MOST consistent with the evidence?" width="100%">
+
+- **Four kinds of decision:**
+
+| Type | What you do | Example |
+|---|---|---|
+| **Choice** | Pick the one best answer (<kbd>A</kbd>–<kbd>F</kbd>) | *What is your FIRST thought about what may be happening?* |
+| **Multi-select** | Choose exactly the number asked | *Select the THREE responsibilities that belong to the data owner.* |
+| **Investigation cards** | Request the information you need before deciding, and skip the distractors | *Choose the cards you would request before recommending a permanent fix.* |
+| **Order** | Tap the steps into the right sequence | *Put the incident response steps in order.* |
+
+<p align="center">
+  <img src="docs/images/game/campaign-multi.webp" alt="Multi-select: choose the three data-owner responsibilities" width="49%">
+  <img src="docs/images/game/campaign-order.webp" alt="Order: the incident response steps" width="49%">
+</p>
+
+<img src="docs/images/game/campaign-cards.webp" alt="Investigation cards: choose the information you need before recommending a permanent treatment" width="100%">
+
+- **After you answer:**
+  - **the verdict:** *Leadership decision*, *Acceptable, but not the best* or *Poor decision*, and **CISSP Mindset +5** with the skill you showed when you get it right.
+  - **the CISO Advisor's feedback** on your choice, and the leadership answer when you missed it.
+  - **🚨 Technician trap** when you picked the technically tempting answer, and a **CISSP Mindset Alert** naming the habit (for example *Jumping to conclusions* or *Acting outside the process*).
+  - **the CISSP principle** and, often, a **CISSP insight** diagram, such as *Vulnerability + Threat + Exposure + Impact − Control effectiveness = Risk*.
+  - **🔓 Hidden risk discovered** when the decision uncovers something the organization didn't know.
+  - **the effect on the organization**, for example *Overall security maturity +2* or *Cyber risk exposure −2*.
+  - for multi-select and card decisions, every option marked right or wrong, with the reason.
+
+<img src="docs/images/game/campaign-trap.webp" alt="A poor decision: technician trap, CISSP Mindset Alert, the CISO Advisor's feedback and the leadership answer" width="100%">
+
+<img src="docs/images/game/campaign-reveal.webp" alt="A leadership decision revealing a hidden risk, with the CISSP insight diagram and the command center sidebar" width="100%">
+
+<img src="docs/images/game/campaign-multi-result.webp" alt="Multi-select result: the four compensating controls, with a reason for every option" width="100%">
+
+- **Saving and replaying:** your progress is saved after every decision, so you can stop and **Resume** later, even on another day. Replaying an episode replaces its earlier result, so your posture always reflects your latest run.
+
+#### The debrief
+
+Every episode ends with a debrief:
+
+<img src="docs/images/game/campaign-debrief-score.webp" alt="Episode complete: CISSP mindset score, XP and the episode achievement" width="100%">
+
+- **CISSP mindset score**, the XP earned and the number of **technician traps** triggered.
+- **The episode achievement**, for example *Calm Under Fire*, *Data Steward*, *Risk Strategist* or *Resilience Architect*, earned with a score of 75% or more. Some decisions have their own achievement, for example **Fail Safely**: *"You discovered the problem during an exercise instead of a real disaster."*
+- **CISSP mindset scorecard:** your result for each mindset dimension the episode tested, with a **strength** and a **development area**.
+- **Organizational impact:** every posture meter before → after, and known critical risks. Known risks usually **go up** as maturity improves. You're not creating risks: the organization is finally seeing what it looks like.
+
+<img src="docs/images/game/campaign-debrief-scorecard.webp" alt="CISSP mindset scorecard with strength and development area, and organizational impact before and after" width="100%">
+
+- **Your decisions**, each with its principle and verdict, **how your thinking evolved** (for example *"We have backups" → Can they be restored? → … → Now we know our actual capability*), and the **lessons to keep**.
+- **The cliffhanger** that leads into the next episode, and a button to play it.
+
+<img src="docs/images/game/campaign-cliffhanger.webp" alt="The end-of-episode cliffhanger: a database called CUSTOMER_MASTER, and nobody knows its classification" width="100%">
+
+#### Aegis Global Services Group
+
+The **Aegis Global** tab is the profile of the organization you've joined: a Dubai-headquartered digital services, logistics and e-commerce group with about 8,500 employees, 1,200 contractors, 2.7 million customers and USD 2.4 billion in revenue. It has capable people, real investment and documented policies, but **documentation doesn't always match reality**.
+
+<img src="docs/images/game/campaign-org.webp" alt="Aegis Global Services Group: the campaign premise and the corporate profile" width="100%">
+
+- **Strategy and tensions:** the business model, the five Board-approved objectives (for example *Migrate 70% of eligible workloads to the cloud*) and the tensions they create: speed vs assurance, availability vs containment, cost vs resilience…
+- **The Board and governance:** the Board's reassuring but incomplete dashboard, and the CISO-reports-to-the-CIO governance tension.
+- **The executive committee and 12 recurring characters.** Each has a legitimate viewpoint, from the CEO (*"Protect trust, but keep the business running."*) to the Internal Audit Director (*"Show evidence, not assurances."*). The best answer rarely means "Security decides alone".
+
+<img src="docs/images/game/campaign-characters.webp" alt="Recurring characters and their viewpoints" width="100%">
+
+- **14 departments**, each with its responsibilities, its **visible strength** and its CISSP themes. Their **hidden weaknesses stay locked** until you uncover a related risk in the story.
+
+<img src="docs/images/game/campaign-departments.webp" alt="Departments: visible strengths, and hidden weaknesses uncovered or still locked" width="100%">
+
+- **Information classification:** Public, Internal, Confidential and Restricted, and what you discover about how well it's really applied.
+- **The policy library:** 18 policies and what each requires. The **Reality** column fills in as you play.
+
+<img src="docs/images/game/campaign-policies.webp" alt="The policy library with the reality of each policy revealed or not yet assessed" width="100%">
+
+- **The policy hierarchy**, from Board direction through policy, standard, procedure and guideline to **evidence**. A document's existence doesn't show that a control works.
+- **The technology landscape:** identity, network, applications, data and hosting.
+
+#### The hidden risk register
+
+The **Risk register** tab lists the risks you've uncovered through incidents, audits, alerts and conversations. The full register (21 risks) is **hidden**: discovering a risk is like unlocking part of the map.
+
+<img src="docs/images/game/campaign-risks.webp" alt="The risk register: discovered risks with description, root causes, domains and story consequence, and locked undiscovered risks" width="100%">
+
+- **Each discovered risk** shows its description, root causes, the CISSP domains it touches, its story consequence and the episode where you found it.
+- **Undiscovered risks** stay locked.
+
+The campaign also looks right in the light theme:
+
+<img src="docs/images/game/campaign-light-overview.webp" alt="The campaign overview in the light theme" width="100%">
+
 
 ### Daily Briefing
 
@@ -574,6 +766,7 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 | Adaptive Sprint | 8 + 2 per level for each right answer, plus 30 for finishing above the line (10 below it) |
 | Term Blitz | 2 per point |
 | Domain Sorter | 3 per correct card |
+| Story campaign episode | 60 + 0.8 × your score the first time you finish it; 10 + 0.2 × your score on a replay |
 | Daily quest | 30 |
 
 **Daily quests:** three new quests every day, shown on HQ with progress bars.
@@ -587,6 +780,8 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
   - score 8+ in Term Blitz
   - complete a crisis simulation
   - sort 7+ terms into the right domain
+  - make 3 decisions in the story campaign
+  - finish a campaign episode
 
 **Badges**
 
@@ -605,10 +800,14 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 | 🎯 Calibrated | Be right on 10 answers you were sure about, at 90%+ |
 | 🏅 Centurion | Answer 100 decisions |
 | 🗺 Cartographer | Clear the fog from every domain |
+| 📖 First Day Survived | Complete Episode 1 of the story campaign |
+| 🌍 Four Days In | Complete four campaign episodes |
+| 🔍 Risk Hunter | Uncover 10 hidden risks in the campaign |
 | 🏆 Corner Office | Reach the CISO rank |
 
 **Where your progress lives:**
-- Your XP, rank, answers, badges, streak and quests are stored **only in your browser**, like the rest of your study data.
+- Your XP, rank, answers, badges, streak, quests and story-campaign progress are stored **only in your browser**, like the rest of your study data.
+- Campaign decisions also feed your **CISSP mindset profile** and XP, so the story and the other modes level up the same rank.
 - They're included in **Backup & restore** and **Send to another device**, so you can carry your rank from laptop to phone.
 
 ### Game keyboard shortcuts
@@ -620,6 +819,8 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 | | <kbd>Enter</kbd> | Next question |
 | Crisis Room, Board Room | <kbd>A</kbd>–<kbd>D</kbd> | Choose a decision |
 | Term Blitz | <kbd>A</kbd>–<kbd>D</kbd> or <kbd>1</kbd>–<kbd>4</kbd> | Pick a term |
+| Story campaign | <kbd>A</kbd>–<kbd>F</kbd> | Choose an answer |
+| | <kbd>Enter</kbd> | Continue the story |
 
 ### Game content
 
@@ -638,6 +839,8 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 
 **In total:** 15 level-1, 18 level-2, 13 level-3 and 7 level-4 scenarios: 40 BEST, 9 FIRST, 3 MOST and 1 LEAST, 21 of them with technician traps. Plus **12 sequencing puzzles**, **3 crisis simulations** and the **Board Meeting** boss (6 board questions), all described above.
 
+**The CISSP Story Campaign:** Season 1 has 15 episodes and a season finale. **4 episodes are playable now with 59 decisions** (choice, multi-select, investigation cards and ordering), 21 hidden risks, 14 departments, 12 characters and 18 policies. Episodes 5–15 are announced with their objectives, concepts and domains, and arrive over time.
+
 ### Game mode on your phone
 
 <p align="center">
@@ -647,6 +850,15 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 </p>
 
 Every mode works on phones: the game tabs scroll sideways, the cards stack, and the crisis meters move above the story.
+
+The story campaign on a phone: the overview, a decision scene, a result with a hidden risk, and the risk register.
+
+<p align="center">
+  <img src="docs/images/game/campaign-phone-overview.webp" alt="Story campaign overview on a phone" width="24%">
+  <img src="docs/images/game/campaign-phone-play.webp" alt="A campaign decision scene on a phone" width="24%">
+  <img src="docs/images/game/campaign-phone-result.webp" alt="A campaign result with a hidden risk discovered, on a phone" width="24%">
+  <img src="docs/images/game/campaign-phone-risks.webp" alt="The hidden risk register on a phone" width="24%">
+</p>
 
 ---
 
