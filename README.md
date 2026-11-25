@@ -447,7 +447,7 @@ The campaign's overview page is your dashboard as the new CISO.
 
 - **The season** as episode cards, each showing its status, story day, number of decisions, play time and domains. Below them are the campaign's signature lessons, for example *"Having backups doesn't mean you can recover"* and *"Control documented ≠ control effective"*.
 
-<img src="docs/images/game/campaign-season-cards.webp" alt="Season 1 episode cards: completed, available, locked and coming soon" width="100%">
+<img src="docs/images/game/campaign-season-cards.webp" alt="Season 1 episode cards: all fifteen episodes completed, with scores, story days and domains" width="100%">
 
 - **On the Dashboard:** the [Story Campaign Mode sub-tab](#dashboard) shows your season progress, the next episode and a numbered tile for each episode.
 - **Rank gates:** from Episode 5 on, episodes also need a rank, so the story and the quick-play modes grow together. The season list and each episode's page show the rank it needs and how much XP you still need:
@@ -484,7 +484,63 @@ Your first month as CISO. Open the **Season 1** tab for every episode's objectiv
 
 <img src="docs/images/game/campaign-episode.webp" alt="Episode 4 details: synopsis, objectives, CISSP concepts and domains, hidden risks and your record" width="100%">
 
-<img src="docs/images/game/campaign-episode-soon.webp" alt="A coming-soon episode: Trust, but Verify, with its objectives, concepts and domains" width="100%">
+<img src="docs/images/game/ep15-details.webp" alt="Episode 15 details: Green Doesn't Mean Secure, the assurance boss battle" width="100%">
+
+#### Episodes 10–15 in pictures
+
+The second half of the season moves from incidents to the systems behind them: assets, data, facilities, cloud, identity and assurance. Earlier choices keep coming back.
+
+**Episode 10 · You Can't Protect What You Don't Know.** 573 devices nobody documented, and one controller with a published default password and internet access.
+
+<img src="docs/images/game/ep10-controller.webp" alt="Episode 10: the industrial controller's default credential, broad reachability and unknown owner" width="100%">
+
+The segmentation you built around unsupported middleware in Episode 3 becomes the template for the warehouse:
+
+<img src="docs/images/game/ep10-impact.webp" alt="Episode 10: a previous decision impact from Episode 3's segmentation" width="100%">
+
+The boss battle ends by building an asset program from ten cards:
+
+<img src="docs/images/game/ep10-asset-program.webp" alt="Episode 10 boss battle: choosing eight components of the asset program" width="100%">
+
+**Episode 11 · Data Never Forgets.** Classification follows the data, and a closed contract isn't closed data.
+
+<img src="docs/images/game/ep11-supplier.webp" alt="Episode 11: a former supplier still holds 312,482 customer records, with a hidden risk discovered" width="100%">
+
+<img src="docs/images/game/ep11-residency.webp" alt="Episode 11: matching statements to data residency or data sovereignty" width="100%">
+
+**Episode 12 · The Door Was the Firewall.** A valid badge on an expired contractor. If you segmented Warehouse 7, the rogue device on the core switch hits walls:
+
+<img src="docs/images/game/ep12-impact.webp" alt="Episode 12: the unknown device is blocked from four networks because of earlier segmentation" width="100%">
+
+<img src="docs/images/game/ep12-control.webp" alt="Episode 12: every part of the badge system worked, and the security objective still failed" width="100%">
+
+The boss battle: rebuild the attack chain, then choose the six controls that would have broken it.
+
+<img src="docs/images/game/ep12-attack-chain.webp" alt="Episode 12 boss battle: the reconstructed attack chain in order" width="100%">
+
+**Episode 13 · Someone Else's Computer.** Who is responsible for what, before the 48-hour discount expires?
+
+<img src="docs/images/game/ep13-responsibility.webp" alt="Episode 13: matching cloud responsibilities to the provider, Aegis or shared" width="100%">
+
+<img src="docs/images/game/ep13-contract.webp" alt="Episode 13: contract gaps against Aegis requirements with the deadline running" width="100%">
+
+**Episode 14 · The Password Was Correct.** Correct passwords, wrong people. Is password + PIN really MFA?
+
+<img src="docs/images/game/ep14-factors.webp" alt="Episode 14: matching authenticators to something you know, have or are" width="100%">
+
+<img src="docs/images/game/ep14-response.webp" alt="Episode 14 boss battle: choosing six response actions to save 2.7 million accounts" width="100%">
+
+**Episode 15 · Green Doesn't Mean Secure.** 98% patched, GREEN, and a Red Team at the crown jewels in 7 hours 42 minutes. Which finding matters more: the critical one, or the medium one on the attack path?
+
+<img src="docs/images/game/ep15-severity.webp" alt="Episode 15: a CVSS 9.8 finding on an isolated server vs a 6.5 finding on the Red Team's attack path" width="100%">
+
+<img src="docs/images/game/ep15-fix-first.webp" alt="Episode 15 boss battle: eight findings, resources to fix four" width="100%">
+
+The season's ending depends on ten safeguards you built across Episodes 9–14:
+
+<img src="docs/images/game/ep15-outcome.webp" alt="Episode 15 outcome: Aegis Global's assurance posture before and after" width="100%">
+
+<img src="docs/images/game/ep15-ending.webp" alt="Episode 15 ending: Green That Means Something, with 10 of 10 earlier safeguards in place" width="100%">
 
 #### Playing an episode
 
