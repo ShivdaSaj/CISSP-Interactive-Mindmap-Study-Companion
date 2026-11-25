@@ -342,7 +342,7 @@ You start as a practitioner who thinks technically. Each rank changes the questi
 | 🥉 **Security Practitioner** | 0 | *"What control fixes this?"* | Daily Briefing, Decision Arena, Sequencer, Term Blitz, Domain Sorter, level 1 scenarios, Ransomware Friday | Episodes 1–4 |
 | 🥈 **Security Advisor** | 250 | *"What is the business impact?"* | **Adaptive Sprint**, level 2 scenarios, The Unpatchable System | Episodes 5–7 |
 | 🥇 **Security Manager** | 700 | *"What should happen FIRST?"* | Level 3 scenarios, Breach at the Vendor | Episodes 8–9 (the *72 Hours* boss battle and the Board) |
-| 👑 **CISO** | 1,500 | *"What is BEST for the organisation?"* | Level 4 scenarios and the **Board Room** | The season finale (coming soon) |
+| 👑 **CISO** | 1,500 | *"What is BEST for the organisation?"* | Level 4 scenarios and the **Board Room** | Episode 15, *Green Doesn't Mean Secure* |
 
 Story episodes also need the episode before them finished. When you reach a new rank, a promotion screen shows your new emblem, the question that rank asks and **everything it just unlocked**. Anything still locked shows the rank it needs, the XP you still need, and buttons to earn it in either mode.
 
@@ -471,12 +471,12 @@ Your first month as CISO. Open the **Season 1** tab for every episode's objectiv
 | 07 | **Trust, but Verify** | Days 11–12 | A signed package from the approved repository is sending data out of the build servers. Do you trust the label or the evidence? | D1, D3, D6, D7, D8 | ▶ Playable (22) |
 | 08 | **72 Hours** | Days 13–16 | Ransomware across the enterprise and a 72-hour countdown. Your earlier decisions change what happens, with three possible endings. | All eight | ▶ Playable (24) · boss battle |
 | 09 | **The Board Doesn't Speak Cyber** | Day 17 | The Board Risk Committee wants what happened, what it cost, what risk remains and what you need, not a 47-page forensic report. | D1, D2, D6, D7 | ▶ Playable (21) |
-| 10 | You Can't Protect What You Don't Know | Days 21–22 | 573 undocumented warehouse devices, industrial controllers with default credentials and no owners | D2, D7, D6, D4, D3 | Coming soon |
-| 11 | Data Never Forgets | Days 23–24 | Retention, legal holds, remanence and secure disposal | D2, D1, D7 | Coming soon |
-| 12 | The Door Was the Firewall | Days 25–26 | Physical security, badges, tailgating and safety | D3, D7, D1 | Coming soon |
-| 13 | Someone Else's Computer | Days 27–28 | Cloud shared responsibility and shadow cloud | D3, D2, D7, D1 | Coming soon |
-| 14 | The Password Was Correct | Day 29 | Business email compromise, MFA fatigue and social engineering | D5, D1, D7 | Coming soon |
-| 15 | Green Doesn't Mean Secure | Day 30 | Metrics, assurance and evidence | D6, D1 | Coming soon |
+| 10 | **You Can't Protect What You Don't Know** | Days 21–23 | 573 devices nobody documented in Warehouse 7, including an unsupported controller with a default password and internet access. Who owns them, what can they reach, and what do you fix first? | D1, D2, D3, D4, D7 | ▶ Playable (25) |
+| 11 | **Data Never Forgets** | Days 25–27 | One customer database, 51 copies, a spreadsheet every employee can read, and a former supplier still holding 312,482 records. Classification follows the data. | D1, D2, D5, D7 | ▶ Playable (25) |
+| 12 | **The Door Was the Firewall** | Day 31 | 02:17. An expired contractor's badge still works, a device appears on the core switch and the cooling is overridden. Physical incident or cyber incident? Both. | D1, D3, D4, D5, D7 | ▶ Playable (25) |
+| 13 | **Someone Else's Computer** | Days 34–41 | A 32% cheaper cloud migration, “they handle security”, and a 48-hour deadline. Who is responsible for what? | D1, D2, D3, D4, D5, D7 | ▶ Playable (25) |
+| 14 | **The Password Was Correct** | Days 41–42 | Credential stuffing: correct passwords, wrong people. MFA, account recovery, sessions and 2.7 million customer accounts. | D1, D5, D6, D7 | ▶ Playable (26) |
+| 15 | **Green Doesn't Mean Secure** | Days 48–49 | 98% patched and GREEN, yet the Red Team reached the customer database in 7 hours 42 minutes. Scans, pen tests, Red Teams and attack paths, with three endings. | D1, D3, D6, D7 | ▶ Playable (24) · boss battle · CISO rank |
 | 👑 | **Season finale: The Board Risk Committee** | | Explain what happened, what remains unknown, which risks matter most, who owns them and what investment is needed | All | Coming soon |
 
 - **Order:** episodes unlock one after another. Finish an episode to open the next, and replay any episode at any time.
@@ -492,7 +492,7 @@ Your first month as CISO. Open the **Season 1** tab for every episode's objectiv
   - every episode opens with **"Previously on Aegis Global…"**
   - then **Previous decision impact**: choices you made in earlier episodes come back. For example, approving manual IP blocking on Day 1 blocks a partner's API overnight, and recommending a shutdown on Day 4 lowers the CFO's trust in Security on Day 5.
   - then the opening scene. The opening of Episode 1 is shown below; the second image shows Episode 2 opening with two Day 1 decisions coming back.
-  - from Episode 8 onwards, earlier decisions also change scenes **mid-episode**. For example, Episode 3's segmentation can block the ransomware's spread, or its absence lets encryption reach the warehouses. Episode 5's just-in-time access can deny the attacker your backups. Episode 4's recovery program can decide whether payments come back in 3 hours or 19.
+  - from Episode 8 onwards, earlier decisions also change scenes **mid-episode**. For example, Episode 3's segmentation can block the ransomware's spread, or its absence lets encryption reach the warehouses. Episode 5's just-in-time access can deny the attacker your backups. Episode 4's recovery program can decide whether payments come back in 3 hours or 19. Later episodes keep doing it: Warehouse 7 segmentation limits what the rogue datacenter device can reach in Episode 12, and the cloud guardrails from Episode 13 speed up the account-takeover response in Episode 14.
 
 <img src="docs/images/game/campaign-intro.webp" alt="Episode 1 opening: the command center screen and the first phone calls" width="100%">
 
@@ -553,7 +553,7 @@ Every episode ends with a debrief:
 
 - **Your decisions**, each with its principle and verdict, **how your thinking evolved** (for example *"We have backups" → Can they be restored? → … → Now we know our actual capability*), and the **lessons to keep**.
 - **An outcome screen** in some episodes: Episode 8's 72-hour status, or Episode 9's *Board understanding* result.
-- **Multiple endings** in Episode 8, decided by how many of nine earlier safeguards you put in place: *Resilient Enterprise*, *Recovering, But Hurt* or *Crisis*.
+- **Multiple endings** in Episode 8, decided by how many of nine earlier safeguards you put in place: *Resilient Enterprise*, *Recovering, But Hurt* or *Crisis*. Episode 15 does the same with ten safeguards from Episodes 9–14: *Green That Means Something*, *Improving, Not Green* or *Green on Paper*.
 - **The cliffhanger** that leads into the next episode, and a button to play it.
 
 <img src="docs/images/game/campaign-cliffhanger.webp" alt="The end-of-episode cliffhanger: a database called CUSTOMER_MASTER, and nobody knows its classification" width="100%">
@@ -584,7 +584,7 @@ The **Aegis Global** tab is the profile of the organization you've joined: a Dub
 
 #### The hidden risk register
 
-The **Risk register** tab lists the risks you've uncovered through incidents, audits, alerts and conversations. The full register (29 risks) is **hidden**: discovering a risk is like unlocking part of the map.
+The **Risk register** tab lists the risks you've uncovered through incidents, audits, alerts and conversations. The full register (47 risks) is **hidden**: discovering a risk is like unlocking part of the map.
 
 <img src="docs/images/game/campaign-risks.webp" alt="The risk register: discovered risks with description, root causes, domains and story consequence, and locked undiscovered risks" width="100%">
 
@@ -885,7 +885,7 @@ Your rank and progress across **both** modes, and, instead of only "74% in Domai
 
 **In total:** 15 level-1, 18 level-2, 13 level-3 and 7 level-4 scenarios: 40 BEST, 9 FIRST, 3 MOST and 1 LEAST, 21 of them with technician traps. Plus **12 sequencing puzzles**, **3 crisis simulations** and the **Board Meeting** boss (6 board questions), all described above.
 
-**The CISSP Story Campaign:** Season 1 has 15 episodes and a season finale. **9 episodes are playable now with 168 decisions** (choice, multi-select, investigation cards, ordering and matching), 29 hidden risks, 14 departments, 12 characters and 18 policies. Episodes 10–15 are announced with their objectives, concepts and domains, and arrive over time.
+**The CISSP Story Campaign:** Season 1 has 15 episodes and a season finale. **All 15 episodes are playable, with 318 decisions** (choice, multi-select, investigation cards, ordering and matching), 47 hidden risks, 14 departments, 12 characters and 18 policies. The season finale, *The Board Risk Committee*, is announced.
 
 ### Game mode on your phone
 
