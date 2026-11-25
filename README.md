@@ -417,7 +417,7 @@ and not *read → question → correct/incorrect → next question*.
 
 #### Contents of the campaign
 - [The CISO Command Center](#the-ciso-command-center)
-- [Season 1: The First 30 Days](#season-1-the-first-30-days)
+- [Season 1: The First 90 Days](#season-1-the-first-90-days)
 - [Playing an episode](#playing-an-episode)
 - [The debrief](#the-debrief)
 - [Aegis Global Services Group](#aegis-global-services-group)
@@ -454,9 +454,9 @@ The campaign's overview page is your dashboard as the new CISO.
 
 <img src="docs/images/game/ep8-gate.webp" alt="Episode 8 details: it opens at Security Manager, with the XP still to go" width="100%">
 
-#### Season 1: The First 30 Days
+#### Season 1: The First 90 Days
 
-Your first month as CISO. Open the **Season 1** tab for every episode's objectives, CISSP concepts and domains.
+Your first 90 days as CISO, in 18 episodes. Open the **Season 1** tab for every episode's objectives, CISSP concepts and domains.
 
 <img src="docs/images/game/campaign-season.webp" alt="Season 1: each episode with its status, objectives, CISSP concepts and domains" width="100%">
 
@@ -477,14 +477,16 @@ Your first month as CISO. Open the **Season 1** tab for every episode's objectiv
 | 13 | **Someone Else's Computer** | Days 34–41 | A 32% cheaper cloud migration, “they handle security”, and a 48-hour deadline. Who is responsible for what? | D1, D2, D3, D4, D5, D7 | ▶ Playable (25) |
 | 14 | **The Password Was Correct** | Days 41–42 | Credential stuffing: correct passwords, wrong people. MFA, account recovery, sessions and 2.7 million customer accounts. | D1, D5, D6, D7 | ▶ Playable (26) |
 | 15 | **Green Doesn't Mean Secure** | Days 48–49 | 98% patched and GREEN, yet the Red Team reached the customer database in 7 hours 42 minutes. Scans, pen tests, Red Teams and attack paths, with three endings. | D1, D3, D6, D7 | ▶ Playable (24) · boss battle · CISO rank |
-| 👑 | **Season finale: The Board Risk Committee** | | Explain what happened, what remains unknown, which risks matter most, who owns them and what investment is needed | All | Coming soon |
+| 16 | **Just Because You Can** | Days 55–57 | HR wants Security to “monitor everything” on a suspected insider. Capability isn't authority, suspicion isn't proof, and the obvious case isn't what it seems. | D1, D2, D5, D7 | ▶ Playable (25) |
+| 17 | **Show Me the Evidence** | Days 63–72 | 472 of 486 controls “implemented”, 327 tested effective, and external auditors in seven days. How do you know your controls work? | D1, D6, D7 | ▶ Playable (25) |
+| 18 | 👑 **Secure by Design** | Days 74–90 | **Season finale.** Project Horizon: $40M, six months, AI, cloud, APIs and partners, and it doesn't exist yet. Every earlier failure becomes a design requirement. Three endings, then the Season 1 final scene. | All eight | ▶ Playable (28) · finale |
 
 - **Order:** episodes unlock one after another. Finish an episode to open the next, and replay any episode at any time.
 - **Episode page:** each episode has its own page with the synopsis, objectives, CISSP concepts and domain names, the hidden risks it can reveal (shown once found), your best score, number of plays, achievement and a review of your last run.
 
 <img src="docs/images/game/campaign-episode.webp" alt="Episode 4 details: synopsis, objectives, CISSP concepts and domains, hidden risks and your record" width="100%">
 
-<img src="docs/images/game/ep15-details.webp" alt="Episode 15 details: Green Doesn't Mean Secure, the assurance boss battle" width="100%">
+<img src="docs/images/game/ep18-details.webp" alt="Episode 18 details: Secure by Design, the season finale" width="100%">
 
 #### Episodes 10–15 in pictures
 
@@ -541,6 +543,62 @@ The season's ending depends on ten safeguards you built across Episodes 9–14:
 <img src="docs/images/game/ep15-outcome.webp" alt="Episode 15 outcome: Aegis Global's assurance posture before and after" width="100%">
 
 <img src="docs/images/game/ep15-ending.webp" alt="Episode 15 ending: Green That Means Something, with 10 of 10 earlier safeguards in place" width="100%">
+
+#### Episodes 16–18: the road to the finale
+
+The last three episodes turn from attacks to trust, proof and design.
+
+**Episode 16 · Just Because You Can.** A suspected insider, and a SOC that can technically see everything. Can Security log into the employee's personal cloud account?
+
+<img src="docs/images/game/ep16-personal-cloud.webp" alt="Episode 16: the SOC wants to access the employee's personal cloud account after a 3.9 GB upload" width="100%">
+
+The CFO privately asks you to stretch the investigation. Refusing earns *Trustee of Access*:
+
+<img src="docs/images/game/ep16-cfo.webp" alt="Episode 16: declining the CFO's request outside the authorized purpose, with the Trustee of Access achievement" width="100%">
+
+The boss battle: sort the evidence into facts, context, what isn't established, and the organization's own control failures.
+
+<img src="docs/images/game/ep16-board.webp" alt="Episode 16 boss battle: the investigation board" width="100%">
+
+**Episode 17 · Show Me the Evidence.** External auditors in seven days. A manager offers to backdate a spreadsheet:
+
+<img src="docs/images/game/ep17-integrity.webp" alt="Episode 17: refusing to create misleading evidence, with the Professional Integrity achievement" width="100%">
+
+<img src="docs/images/game/ep17-exceptions.webp" alt="Episode 17: choosing what makes a security exception governed" width="100%">
+
+The auditor picks disaster recovery, and the ugly failure from Episode 4 becomes your strongest evidence:
+
+<img src="docs/images/game/ep17-dr-evidence.webp" alt="Episode 17: Episode 4's recovery program provides the auditor with tested recovery evidence" width="100%">
+
+**Episode 18 · Secure by Design, the season finale.** Nothing to investigate, patch or recover: the system doesn't exist yet. The AI assistant wants to act on customers' behalf:
+
+<img src="docs/images/game/ep18-ai-agent.webp" alt="Episode 18: should an AI assistant's interpretation alone authorize refunds and address changes?" width="100%">
+
+Decisions from across the season come back as ready-made building blocks:
+
+<img src="docs/images/game/ep18-pipeline.webp" alt="Episode 18: earlier pipeline separation of duties and SBOM decisions shaping Project Horizon" width="100%">
+
+The boss battle: build Horizon from 16 design cards, then turn every past failure into a design requirement.
+
+<img src="docs/images/game/ep18-build-horizon.webp" alt="Episode 18 boss battle: choosing twelve of sixteen design cards" width="100%">
+
+<img src="docs/images/game/ep18-past-failures.webp" alt="Episode 18: matching past failures to the design requirements that prevent them" width="100%">
+
+The season ends with the question the whole campaign has been building towards:
+
+<img src="docs/images/game/ep18-ciso-job.webp" alt="Episode 18: What is the CISO's job?" width="100%">
+
+Your Day 1 vs Day 90 campaign impact, and an ending decided by twelve safeguards you built across the whole season:
+
+<img src="docs/images/game/ep18-outcome.webp" alt="Episode 18: campaign impact, Day 1 vs Day 90" width="100%">
+
+<img src="docs/images/game/ep18-ending.webp" alt="Episode 18 ending: Secure by Design" width="100%">
+
+<img src="docs/images/game/ep18-season-complete.webp" alt="Season 1 complete: A mile wide. An inch deep. Think like a security leader." width="100%">
+
+On the Dashboard, a finished season looks like this:
+
+<img src="docs/images/game/dash-track-complete.webp" alt="The Dashboard's episode tracker with all eighteen episodes completed" width="100%">
 
 #### Playing an episode
 
@@ -609,7 +667,7 @@ Every episode ends with a debrief:
 
 - **Your decisions**, each with its principle and verdict, **how your thinking evolved** (for example *"We have backups" → Can they be restored? → … → Now we know our actual capability*), and the **lessons to keep**.
 - **An outcome screen** in some episodes: Episode 8's 72-hour status, or Episode 9's *Board understanding* result.
-- **Multiple endings** in Episode 8, decided by how many of nine earlier safeguards you put in place: *Resilient Enterprise*, *Recovering, But Hurt* or *Crisis*. Episode 15 does the same with ten safeguards from Episodes 9–14: *Green That Means Something*, *Improving, Not Green* or *Green on Paper*.
+- **Multiple endings** in Episode 8, decided by how many of nine earlier safeguards you put in place: *Resilient Enterprise*, *Recovering, But Hurt* or *Crisis*. Episode 15 does the same with ten safeguards from Episodes 9–14: *Green That Means Something*, *Improving, Not Green* or *Green on Paper*. The finale, Episode 18, looks back over the whole season: twelve safeguards decide *Secure by Design*, *Secure, With Scars* or *Still Reacting*.
 - **The cliffhanger** that leads into the next episode, and a button to play it.
 
 <img src="docs/images/game/campaign-cliffhanger.webp" alt="The end-of-episode cliffhanger: a database called CUSTOMER_MASTER, and nobody knows its classification" width="100%">
@@ -640,7 +698,7 @@ The **Aegis Global** tab is the profile of the organization you've joined: a Dub
 
 #### The hidden risk register
 
-The **Risk register** tab lists the risks you've uncovered through incidents, audits, alerts and conversations. The full register (47 risks) is **hidden**: discovering a risk is like unlocking part of the map.
+The **Risk register** tab lists the risks you've uncovered through incidents, audits, alerts and conversations. The full register (57 risks) is **hidden**: discovering a risk is like unlocking part of the map.
 
 <img src="docs/images/game/campaign-risks.webp" alt="The risk register: discovered risks with description, root causes, domains and story consequence, and locked undiscovered risks" width="100%">
 
@@ -941,7 +999,7 @@ Your rank and progress across **both** modes, and, instead of only "74% in Domai
 
 **In total:** 15 level-1, 18 level-2, 13 level-3 and 7 level-4 scenarios: 40 BEST, 9 FIRST, 3 MOST and 1 LEAST, 21 of them with technician traps. Plus **12 sequencing puzzles**, **3 crisis simulations** and the **Board Meeting** boss (6 board questions), all described above.
 
-**The CISSP Story Campaign:** Season 1 has 15 episodes and a season finale. **All 15 episodes are playable, with 318 decisions** (choice, multi-select, investigation cards, ordering and matching), 47 hidden risks, 14 departments, 12 characters and 18 policies. The season finale, *The Board Risk Committee*, is announced.
+**The CISSP Story Campaign:** Season 1, *The First 90 Days*, is complete: **18 playable episodes with 396 decisions** (choice, multi-select, investigation cards, ordering and matching), 57 hidden risks, 14 departments, 12 characters and 18 policies, ending with the finale, *Secure by Design*. Next up: **CISO Command Mode** (coming soon).
 
 ### Game mode on your phone
 
