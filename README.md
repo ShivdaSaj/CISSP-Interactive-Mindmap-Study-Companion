@@ -295,11 +295,13 @@ Click a topic or press <kbd>Enter</kbd> to open its panel:
 
 The CISSP doesn't reward the most technical answer. It rewards the decision a security **leader** would make. Game mode turns that into a game: **don't just memorise CISSP answers, practise CISSP decisions.** Open it from **Game** in the menu, from the Game mode card on the home page, at [`/game`](https://mindmap.sajinshivdas.online/game), or with <kbd>G</kbd> then <kbd>P</kbd>.
 
-<img src="docs/images/game/hq-dark.webp" alt="Game mode HQ: rank card, XP bar, security-posture shield, daily quests and game modes" width="100%">
+<img src="docs/images/game/dashboard-gm.webp" alt="Game mode Dashboard: the rank bar with XP from each mode, the four tabs, the security-posture shield, today's quests and the status of every mode" width="100%">
 
 ### Contents of this section
-- [The leadership journey (ranks)](#the-leadership-journey-ranks)
-- [HQ](#hq)
+- [Four tabs: Dashboard, Gamification Mode, Story Campaign Mode, Profile](#four-tabs-dashboard-gamification-mode-story-campaign-mode-profile) ✨ **new**
+- [The leadership journey (ranks and unlocks)](#the-leadership-journey-ranks-and-unlocks)
+- [Dashboard](#dashboard)
+- [Gamification Mode overview](#gamification-mode-overview)
 - [CISSP Story Campaign: Aegis Global](#cissp-story-campaign-aegis-global-the-first-90-days) 📖 **new**
 - [Daily Briefing](#daily-briefing)
 - [Decision Arena](#decision-arena)
@@ -314,46 +316,76 @@ The CISSP doesn't reward the most technical answer. It rewards the decision a se
 - [Game keyboard shortcuts](#game-keyboard-shortcuts)
 - [Game content](#game-content)
 
-### The leadership journey (ranks)
+### Four tabs: Dashboard, Gamification Mode, Story Campaign Mode, Profile
 
-You start as a practitioner who thinks technically. Each rank changes the question you're trained to ask, and unlocks harder content.
+Game mode has two ways to play, and one place to see how you're doing in both:
 
-| Rank | XP | The question it trains | Unlocks |
-|---|---|---|---|
-| 🥉 **Security Practitioner** | 0 | *"What control fixes this?"* | Level 1 scenarios and sequences, Ransomware Friday, Term Blitz, Domain Sorter |
-| 🥈 **Security Advisor** | 250 | *"What is the business impact?"* | Level 2 content, **Adaptive Sprint**, The Unpatchable System |
-| 🥇 **Security Manager** | 700 | *"What should happen FIRST?"* | Level 3 content, Breach at the Vendor |
-| 👑 **CISO** | 1,500 | *"What is BEST for the organisation?"* | Level 4 content and the **Board Room** |
+| Tab | What's in it |
+|---|---|
+| 📊 **Dashboard** | The landing page. Two sub-tabs show the status of each mode at a glance: **Gamification Mode** and **Story Campaign Mode**. |
+| 🎮 **Gamification Mode** | Quick-play training. An **Overview** plus a sub-tab for each mode: Daily Briefing, Decision Arena, Adaptive Sprint, Sequencer, Crisis Room, Board Room, Term Blitz and Domain Sorter. |
+| 📖 **Story Campaign Mode** | The [CISSP Story Campaign](#cissp-story-campaign-aegis-global-the-first-90-days): one organization, one season, one decision at a time. |
+| 🧠 **Profile** | Your rank, **XP from each mode**, the **unlock roadmap**, achievements, badges and your CISSP mindset. |
 
-When you reach a new rank, a promotion screen shows your new emblem and the question that rank asks. Locked items show the rank they need.
+**A rank bar** sits above the tabs on every Game mode page. It shows your rank, your XP, how much came from each mode, and **what the next rank unlocks**. The shield, briefing streak 🔥 and badge count sit next to it.
 
-### HQ
+<img src="docs/images/game/rankbar.webp" alt="The rank bar: rank, XP bar, Gamification and Story Campaign XP, the next unlock, shield, streak and badges" width="100%">
 
-The landing page of Game mode, and your command centre.
+**Both modes earn XP for the same rank**, and every rank unlocks content in both. Quick play in Gamification Mode gets you to the next story episode faster, and the story earns XP towards the Adaptive Sprint and the Board Room.
 
-<img src="docs/images/game/hq-light.webp" alt="Game mode HQ in the light theme" width="100%">
+### The leadership journey (ranks and unlocks)
 
-- **Rank card:** your emblem, rank, the question your rank asks, and an XP bar to the next rank.
+You start as a practitioner who thinks technically. Each rank changes the question you're trained to ask, and unlocks harder content in both modes.
+
+| Rank | XP | The question it trains | 🎮 Gamification Mode unlocks | 📖 Story Campaign Mode unlocks |
+|---|---|---|---|---|
+| 🥉 **Security Practitioner** | 0 | *"What control fixes this?"* | Daily Briefing, Decision Arena, Sequencer, Term Blitz, Domain Sorter, level 1 scenarios, Ransomware Friday | Episodes 1–4 |
+| 🥈 **Security Advisor** | 250 | *"What is the business impact?"* | **Adaptive Sprint**, level 2 scenarios, The Unpatchable System | Episodes 5–7 |
+| 🥇 **Security Manager** | 700 | *"What should happen FIRST?"* | Level 3 scenarios, Breach at the Vendor | Episodes 8–9 (the *72 Hours* boss battle and the Board) |
+| 👑 **CISO** | 1,500 | *"What is BEST for the organisation?"* | Level 4 scenarios and the **Board Room** | The season finale (coming soon) |
+
+Story episodes also need the episode before them finished. When you reach a new rank, a promotion screen shows your new emblem, the question that rank asks and **everything it just unlocked**. Anything still locked shows the rank it needs, the XP you still need, and buttons to earn it in either mode.
+
+<img src="docs/images/game/locked-board.webp" alt="The Board Room locked: the rank it needs, the XP still to go and where to earn it" width="100%">
+
+### Dashboard
+
+The landing page of Game mode: your status in both modes, without having to open each one. It remembers the sub-tab you used last. Playing happens in each mode's own tab.
+
+**Gamification Mode sub-tab** (shown at the top of this section, and here in the light theme):
+
+<img src="docs/images/game/dashboard-gm-light.webp" alt="Dashboard, Gamification Mode sub-tab, light theme" width="100%">
+
 - **Security posture shield:** a gauge that's restored to 100% by the Daily Briefing and **drops 10% for every day you skip it**. It's a nudge to study a little every day.
-- **Top bar:** shield, briefing streak 🔥 and badge count, on every Game mode page.
-- **Main button:** *Start today's briefing*, or *Enter the Arena* once you've briefed. A second button opens your **Mistake Vault** when it holds anything.
-- **Story campaign card:** your progress in the [CISSP Story Campaign](#cissp-story-campaign-aegis-global-the-first-90-days) and a button to continue the next episode.
+- **Today:** *Start today's briefing*, or *Enter the Arena* once you've briefed.
+- **Mistake Vault:** how many scenarios you still need to revisit, with a button to clear them.
 - **Today's quests:** three quests a day (see [XP, quests and badges](#xp-quests-and-badges)).
-
-<img src="docs/images/game/quests.webp" alt="Today's quests with progress bars" width="100%">
-
-- **Game modes:** a card for each mode, with your progress or best score.
-
-<img src="docs/images/game/modes.webp" alt="Game mode cards: Daily Briefing, Decision Arena, Adaptive Sprint, Sequencer, Crisis Room, Board Room, Term Blitz, Domain Sorter" width="100%">
-
+- **Mode status:** every mode with your progress, best score or lock.
 - **Territory map (fog of war):** one hexagon for each of the 8 domains. A domain you haven't touched is hidden under drifting fog.
   - **How it clears:** by playing the domain's scenarios and sequences **and** by studying its mindmaps. Half the score comes from each, so the game pulls you back into the study content.
   - **Colours:** red (critical gap, under 40%), amber (needs review) and green (mastered, 75%+).
   - **Training a domain:** click a hexagon to open the Arena on that domain.
-- **The leadership journey:** the four ranks as a ladder, with your current rank highlighted.
+- **XP earned in the last 7 days:** one bar a day, split into Gamification and Story Campaign XP.
 
-<img src="docs/images/game/territory-ladder.webp" alt="Territory map with domains coloured by mastery, and the leadership ladder" width="100%">
+**Story Campaign Mode sub-tab:**
 
+<img src="docs/images/game/dashboard-story.webp" alt="Dashboard, Story Campaign Mode sub-tab: next episode, season progress, the episode tracker, Command center meters, last debrief, risk register and leadership growth" width="100%">
+
+- **Up next:** the episode to resume or start, with your place in it, or the rank it needs.
+- **Season progress:** episodes complete, your day in role, hidden risks found and achievements earned.
+- **Episode tracker:** a numbered tile for each episode: completed, in progress, available, waiting for the previous episode, **needs more XP**, or coming soon. When a rank gate is next, it tells you how much XP you need.
+- **Command center:** the organization's real posture after your decisions.
+- **Last debrief**, the **risk register** count with the latest risk you found, and **your leadership growth** (how your thinking is developing).
+
+### Gamification Mode overview
+
+The first sub-tab of Gamification Mode. The sub-tabs for every mode sit underneath the main tabs, with a 🔒 on modes you haven't unlocked yet.
+
+<img src="docs/images/game/modes-overview.webp" alt="Gamification Mode overview: the sub-tabs, the introduction, the decision hierarchy, mode cards, the leadership journey and the decision compass" width="100%">
+
+- **Introduction** with *Start today's briefing* (or *Enter the Arena*) and the **Mistake Vault**.
+- **Modes:** a card for each mode, with what it trains and your progress, best score or lock.
+- **The leadership journey:** the four ranks as a ladder, with your current rank highlighted and the XP to go for the next ones.
 - **The decision hierarchy:** a reasoning framework for scenarios where several answers look right. Work down the list:
   1. Protect human life and safety
   2. Follow law, regulation and ethics
@@ -373,7 +405,7 @@ The landing page of Game mode, and your command centre.
 
 > **Welcome to Aegis Global. Today is your first day as CISO.**
 
-**New.** Instead of hundreds of separate questions, you live through one organization's first 90 days with a new CISO. One incident leads to the next. The story creates the ambiguity, the incomplete information, the competing priorities and the business pressure, so you have to **think like a CISSP**. The eight domains are the world the story happens in. Open it from the **Story Campaign** tab in Game mode, from the campaign card on HQ, or at [`/game/campaign`](https://mindmap.sajinshivdas.online/game/campaign).
+**New.** Instead of hundreds of separate questions, you live through one organization's first 90 days with a new CISO. One incident leads to the next. The story creates the ambiguity, the incomplete information, the competing priorities and the business pressure, so you have to **think like a CISSP**. The eight domains are the world the story happens in. Open it from the **Story Campaign Mode** tab in Game mode, from the Dashboard's Story Campaign Mode sub-tab, or at [`/game/campaign`](https://mindmap.sajinshivdas.online/game/campaign).
 
 <img src="docs/images/game/campaign-hero.webp" alt="Story campaign overview: Aegis Global: The First 90 Days, the opening story, season progress and the learning formula" width="100%">
 
@@ -417,9 +449,10 @@ The campaign's overview page is your dashboard as the new CISO.
 
 <img src="docs/images/game/campaign-season-cards.webp" alt="Season 1 episode cards: completed, available, locked and coming soon" width="100%">
 
-- **On HQ:** a campaign card shows your season progress, hidden risks found and a **Continue** or **Resume** button, with a numbered dot for each episode.
+- **On the Dashboard:** the [Story Campaign Mode sub-tab](#dashboard) shows your season progress, the next episode and a numbered tile for each episode.
+- **Rank gates:** from Episode 5 on, episodes also need a rank, so the story and the quick-play modes grow together. The season list and each episode's page show the rank it needs and how much XP you still need:
 
-<img src="docs/images/game/campaign-hq-card.webp" alt="The campaign card on Game mode HQ" width="100%">
+<img src="docs/images/game/ep8-gate.webp" alt="Episode 8 details: it opens at Security Manager, with the XP still to go" width="100%">
 
 #### Season 1: The First 30 Days
 
@@ -729,11 +762,17 @@ Win the board's confidence with the real CISSP mindset: technical knowledge, plu
 
 ### Profile: your CISSP mindset
 
-Instead of only "74% in Domain 1", the profile shows **how you think**.
+Your rank and progress across **both** modes, and, instead of only "74% in Domain 1", **how you think**.
 
-<img src="docs/images/game/profile-rank.webp" alt="Profile: rank, XP, days played and confidence calibration" width="100%">
+<img src="docs/images/game/profile-xp.webp" alt="Profile: rank card and XP by mode" width="100%">
 
 - **Rank card:** your rank, XP, days played and best streak.
+- **XP by mode:** how much of your XP came from Gamification Mode and how much from Story Campaign Mode.
+- **Unlock roadmap:** each rank with what it opens in both modes, ✓ for what you have and 🔒 for what's next, with a progress bar to your next rank.
+
+<img src="docs/images/game/profile-roadmap.webp" alt="Unlock roadmap: each rank with what it unlocks in Gamification Mode and Story Campaign Mode" width="100%">
+
+- **Campaign achievements:** one for each episode, earned with a high enough score.
 - **Confidence calibration:** how often you're right when you're *Sure*, *Think so* or *Guessing*.
 - **CISSP mindset profile:** eight scores, built from every answer you give:
 
@@ -753,7 +792,7 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 - **Insights:** plain-language advice from your profile, for example *"Your technical knowledge (91%) is ahead of your management judgment (73%). You often pick the implementation step before the risk assessment, the authorisation or the business impact. Practise FIRST questions in the Arena."*
 - **Badges:** earned and still-to-earn badges, each with how to get it.
 - **Mistake Vault:** every scenario you got wrong and haven't solved since, with the principle to remember and a button to clear the vault in the Arena.
-- **Reset game progress:** wipes only your game progress (XP, rank, badges, streak, answers). Your mindmap progress and notes stay.
+- **Reset game progress:** wipes your game progress in both modes (XP, rank, badges, streak, answers, story progress). Your mindmap progress and notes stay.
 
 <img src="docs/images/game/profile-badges.webp" alt="Badges grid with earned and locked badges" width="100%">
 
@@ -775,7 +814,7 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 | Story campaign episode | 60 + 0.8 × your score the first time you finish it; 10 + 0.2 × your score on a replay |
 | Daily quest | 30 |
 
-**Daily quests:** three new quests every day, shown on HQ with progress bars.
+**Daily quests:** three new quests every day, shown on the Dashboard with progress bars. Story quests count as Story Campaign XP.
 - The first is always **"Mark 5 mindmap topics as studied"**, so the game keeps you studying the real content.
 - The other two rotate between:
   - write a note on any topic
@@ -813,7 +852,8 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 
 **Where your progress lives:**
 - Your XP, rank, answers, badges, streak, quests and story-campaign progress are stored **only in your browser**, like the rest of your study data.
-- Campaign decisions also feed your **CISSP mindset profile** and XP, so the story and the other modes level up the same rank.
+- Both modes level up the same rank. The Profile and the rank bar show how much XP came from each. Progress saved before XP was split by mode is divided using your story-episode records.
+- Campaign decisions also feed your **CISSP mindset profile**.
 - They're included in **Backup & restore** and **Send to another device**, so you can carry your rank from laptop to phone.
 
 ### Game keyboard shortcuts
@@ -850,12 +890,17 @@ Instead of only "74% in Domain 1", the profile shows **how you think**.
 ### Game mode on your phone
 
 <p align="center">
-  <img src="docs/images/game/phone-hq.webp" alt="Game mode HQ on a phone" width="30%">
+  <img src="docs/images/game/phone-dashboard.webp" alt="Game mode Dashboard on a phone" width="30%">
+  <img src="docs/images/game/phone-dashboard-story.webp" alt="Dashboard, Story Campaign Mode sub-tab, on a phone" width="30%">
+  <img src="docs/images/game/phone-gm.webp" alt="Gamification Mode sub-tabs and the Decision Arena on a phone" width="30%">
+</p>
+
+<p align="center">
   <img src="docs/images/game/phone-arena.webp" alt="Decision Arena on a phone, light theme" width="30%">
   <img src="docs/images/game/phone-crisis.webp" alt="Crisis Room on a phone" width="30%">
 </p>
 
-Every mode works on phones: the game tabs scroll sideways, the cards stack, and the crisis meters move above the story.
+Every mode works on phones. The four main tabs fit on one row, the Gamification Mode sub-tabs scroll sideways, the cards stack, and the crisis meters move above the story.
 
 The story campaign on a phone: the overview, a decision scene, a result with a hidden risk, and the risk register.
 
